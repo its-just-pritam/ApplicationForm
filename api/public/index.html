@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    </head>
+
+    <body>
+
+        <div className="App">
+            <header className="App-header">
+                
+                <form action="/myaction" method="POST">
+      
+                  <table id="table" align="center">
+      
+                    <tr>
+                        <td> <h1>First Name : </h1> </td>
+                        <td align="center"> <input type="text" name="f_name" id="f_name"></input> </td>
+                    </tr>
+      
+                    <tr>
+                          <td> <h1>Last Name : </h1> </td>
+                          <td align="center"> <input type="text" name="l_name" id="l_name"></input> </td>
+                      </tr>
+                          
+                      <tr>
+                          <td> <h1>Email ID : </h1> </td>
+                          <td align="center"> <input type="email" name="email" id="email"></input> </td>
+                      </tr>
+      
+                      <tr>
+                          <td> <h1>Phone No. : </h1> </td>
+                          <td align="center"> <input type="number" name="phone" id="phone"></input> </td>
+                      </tr>
+      
+                      <tr>
+                          <td> <h1>Image : </h1> </td>
+                          <td align="center"> <input type="file" name="img" id="img"></input> </td>
+                      </tr>
+      
+                      <tr id="tr-button">
+                          <td> <button type="submit" id="button">SUBMIT</button> </td>
+                      </tr>
+      
+                  </table>
+      
+                </form>
+      
+            </header>
+          </div>
+
+          <script type="text/javascript" src="javascripts/script.js"></script>
+
+    </body>
+
+</html>
